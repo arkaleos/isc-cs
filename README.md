@@ -3,3 +3,4 @@ This repository contains solutions to programming problems in Java that are impo
 
 # Problems
 1. An implementation of Binary Search.
+2. An implementation of Selection Sort.
