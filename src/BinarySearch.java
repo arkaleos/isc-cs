@@ -82,9 +82,9 @@ public class BinarySearch {
         System.out.println("Sorted array - " + Arrays.toString(sorted_data));
 
         if (pos != -1)
-            System.out.println(key + " was found at [" + pos + "]");
+            System.out.println(key + " was found at [" + pos + "].");
 
         else
-            System.out.println(key + " was not found");
+            System.out.println(key + " was not found.");
     }
 }
