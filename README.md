@@ -5,3 +5,4 @@ This repository contains solutions to programming problems in Java that are impo
 1. An implementation of Binary Search.
 2. An implementation of Selection Sort.
 3. An implementation of Insertion Sort.
+4. A program to multiply two matrices.
