@@ -38,19 +38,15 @@ public class SelectionSort {
         for (int i = 0; i < data.length; i++)
             temp_data[i] = data[i];
 
-        for (int i = 0, l = temp_data.length; i < l-1; i++) 
-        { 
-            // Find the minimum element in unsorted array 
-            int min_idx = i; 
-            for (int j = i+1; j < l; j++) 
-                if (temp_data[j] < temp_data[min_idx]) 
-                    min_idx = j; 
-  
-            // Swap the found minimum element with the first 
-            // element 
-            int temp = temp_data[min_idx]; 
-            temp_data[min_idx] = temp_data[i]; 
-            temp_data[i] = temp; 
+        for (int i = 0, l = temp_data.length; i < l-1; i++) {
+            int min_idx = i;
+            for (int j = i+1; j < l; j++)
+                if (temp_data[j] < temp_data[min_idx])
+                    min_idx = j;
+
+            int temp = temp_data[min_idx];
+            temp_data[min_idx] = temp_data[i];
+            temp_data[i] = temp;
         } 
 
         for (int i = 0; i < temp_data.length; i++)
