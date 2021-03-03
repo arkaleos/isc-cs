@@ -3,7 +3,7 @@ import java.util.*;
 
 public class SelectionSort {
 
-    // Declaring variables
+    // Declaring vaiables
     int[] data;
     int[] sorted_data;
 
