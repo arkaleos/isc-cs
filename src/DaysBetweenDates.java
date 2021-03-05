@@ -4,7 +4,6 @@ import java.time.temporal.*;
 
 public class DaysBetweenDates {
 
-
     // Declaring vaiables
     String date_1, date_2;
     long days;
