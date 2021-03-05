@@ -39,14 +39,14 @@ public class InsertionSort {
             temp_data[i] = data[i];
 
         for (int i = 1, l = temp_data.length; i < l; ++i) {
-            int key = temp_data[i];
+            int temp = temp_data[i];
             int j = i - 1;
  
-            while (j >= 0 && temp_data[j] > key) {
+            while (j >= 0 && temp_data[j] > temp) {
                 temp_data[j + 1] = temp_data[j];
                 j = j - 1;
             }
-            temp_data[j + 1] = key;
+            temp_data[j + 1] = temp;
         }
 
         for (int i = 0; i < temp_data.length; i++)
