@@ -6,13 +6,11 @@ public class DaysBetweenDates {
 
 
     // Declaring vaiables
-    int[] DIAM;
     String date_1, date_2;
     long days;
 
     // Constructor for initializing variables
     DaysBetweenDates() {
-        DIAM = new int[]{0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
         date_1 = "";
         date_2 = "";
         days = 0;
