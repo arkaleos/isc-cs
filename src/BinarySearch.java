@@ -10,15 +10,15 @@ public class BinarySearch {
     int key;
 
     // Constructor for initializing variables
-    BinarySearch(int size) {
-        data = new int[size];
-        sorted_data = new int[size];
+    BinarySearch() {
+        data = new int[10];
+        sorted_data = new int[10];
         pos = -1;
     }
 
     // Main method for running the program
     public static void main(String[] args) throws IOException {
-        BinarySearch bs = new BinarySearch(10);
+        BinarySearch bs = new BinarySearch();
         bs.input();
         bs.sort();
         bs.search();

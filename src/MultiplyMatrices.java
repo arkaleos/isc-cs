@@ -9,15 +9,15 @@ public class MultiplyMatrices {
     int[][] mtx_3;
 
     // Constructor for initializing variables
-    MultiplyMatrices(int row_1, int col_1, int row_2, int col_2) {
-        mtx_1 = new int[row_1][col_1];
-        mtx_2 = new int[row_2][col_2];
-        mtx_3 = new int[row_1][col_2];
+    MultiplyMatrices() {
+        mtx_1 = new int[3][3];
+        mtx_2 = new int[3][3];
+        mtx_3 = new int[3][3];
     }
 
     // Main method for running the program
     public static void main(String[] args) throws IOException {
-        MultiplyMatrices mm = new MultiplyMatrices(3, 3, 3, 3);
+        MultiplyMatrices mm = new MultiplyMatrices();
         mm.input();
         mm.multiply();
         mm.output();

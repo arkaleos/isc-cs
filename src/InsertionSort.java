@@ -8,14 +8,14 @@ public class InsertionSort {
     int[] sorted_data;
 
     // Constructor for initializing variables
-    InsertionSort(int size) {
-        data = new int[size];
-        sorted_data = new int[size];
+    InsertionSort() {
+        data = new int[10];
+        sorted_data = new int[10];
     }
 
     // Main method for running the program
     public static void main(String[] args) throws IOException {
-        InsertionSort bs = new InsertionSort(10);
+        InsertionSort bs = new InsertionSort();
         bs.input();
         bs.sort();
         bs.output();

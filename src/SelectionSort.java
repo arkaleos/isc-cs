@@ -8,14 +8,14 @@ public class SelectionSort {
     int[] sorted_data;
 
     // Constructor for initializing variables
-    SelectionSort(int size) {
-        data = new int[size];
-        sorted_data = new int[size];
+    SelectionSort() {
+        data = new int[10];
+        sorted_data = new int[10];
     }
 
     // Main method for running the program
     public static void main(String[] args) throws IOException {
-        SelectionSort bs = new SelectionSort(10);
+        SelectionSort bs = new SelectionSort();
         bs.input();
         bs.sort();
         bs.output();
