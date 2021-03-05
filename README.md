@@ -7,3 +7,12 @@ This repository contains solutions to programming problems in Java that are impo
 3. An implementation of Insertion Sort.
 4. A program to multiply two matrices.
 5. A program to calculate the days between two dates.
+6. A program to convert binary number to decimal number.
+
+# Solutions
+1. BinarySearch.java
+2. SelectionSort.java
+3. InsertionSort.java
+4. MultiplyMatrices.java
+5. DaysBetweenDates.java
+6. BinaryToDecimal.java
