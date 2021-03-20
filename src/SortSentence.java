@@ -11,8 +11,8 @@ public class SortSentence {
     // Constructor for initializing variables
     SortSentence() {
         sent = "";
-        term = false;
         rsent = "";
+        term = false;
     }
 
     // Main method for running the program
