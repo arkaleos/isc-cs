@@ -40,7 +40,7 @@ public class SortSentence {
 
     // Compute method for computing the data
     void compute() {
-        StringTokenizer st = new StringTokenizer(sent, " .");
+        StringTokenizer st = new StringTokenizer(sent, " .?!");
 
         data = new String[st.countTokens()];
 
@@ -62,7 +62,7 @@ public class SortSentence {
             rsent += data[i];
         }
 
-        rsent += '.';
+        rsent += sent.charAt(sent.length() - 1);
 
         String temp = Character.toUpperCase(sent.charAt(0)) + "";
         temp += sent.substring(1);
