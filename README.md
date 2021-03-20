@@ -14,14 +14,9 @@ Perform the following tasks: (i) Check for the validity of the accepted sentence
 
     Example:
 
-        Input: -
-
-        the lines are printed in reverse order.
-
-        Output: -
-
-        The lines are printed in reverse order.
-        In the are lines order printed reverse.
+        Input: the lines are printed in reverse order.
+        Output: The lines are printed in reverse order.
+        Output: In the are lines order printed reverse.
 
 # Solutions
 1. BinarySearch.java
